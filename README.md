@@ -4,10 +4,10 @@ Find open source repositories and issues to work on.
 
 See live app running here: https://www.opensourcehelpwanted.com/.
 
-## Issues search
+### Issues search
 ![Screenshot](issues.png)
 
-## Repositoris search
+### Repositoris search
 ![Screenshot](repos.png)
 
 ## To get started
@@ -19,5 +19,6 @@ See live app running here: https://www.opensourcehelpwanted.com/.
 1. Click "Register Application"
 1. Click "Generate a new client secret" and copy that value into .env where it says "your-client-secret-here"
 1. Copy the Client ID and paste into .env where it says "your-app-client-id-here"
+
 1. Run `npm install`
 1. Run `npm start` to start the front-end at http://localhost:3000 (and back-end at http://localhost:9000) and automatically reload when you change a project file
